@@ -14,9 +14,9 @@ const Header = () => {
     
 
     <nav style={{display:'flex', textDecoration:'none'}}>
-    <NavLink to="/" style={{margin:'20px'}} end  activeStyle={{color:'yellow'}}>Home</NavLink>
-    <NavLink to="cont" style={{margin:'20px'}} activeStyle={{color:'yellow'}}>Contact us</NavLink>
-    <NavLink to="login" style={{margin:'20px'}} activeStyle={{color:'yellow'}}>Login</NavLink>
+    <NavLink to="/" style={{margin:'20px', textDecoration:'none'}} end  activeStyle={{color:'yellow'}}>Home</NavLink>
+    <NavLink to="cont" style={{margin:'20px', textDecoration:'none'}} activeStyle={{color:'yellow'}}>Contact us</NavLink>
+    <NavLink to="login" style={{margin:'20px', textDecoration:'none'}} activeStyle={{color:'yellow'}}>Login</NavLink>
 
 
     
