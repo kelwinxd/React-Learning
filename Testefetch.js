@@ -1,6 +1,6 @@
 import Prod from './Prod';
 
-import React from 'react'
+import React from 'react' 
 
 const Testefetch = () => {
  
