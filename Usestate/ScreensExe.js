@@ -14,7 +14,7 @@ const style = {
     return (
     <>
     <br></br>
-    <img style={style} src={noteimg}></img>
+    <img style={style} src={noteimg} alt='sada'></img>
     <p>Notebook</p>
     </>
   )
@@ -24,7 +24,7 @@ if(smart === true){
     return (
         <>
         <br></br>
-        <img style={style} src={celimg}></img>
+        <img style={style} src={celimg} alt='asdsa'></img>
         <p >Smartphone</p>
         </>
     )

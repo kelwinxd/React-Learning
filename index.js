@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 
-import App from './Router/App';
+import StateExe from './Usestate/StateExe'
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<App />
+<StateExe />
   </React.StrictMode>
 );
 
