@@ -21,7 +21,7 @@ function Hchange({target}){
   
     return (
     <>
-    <div style={{backgroundColor:'Green'}}>
+    <div style={{backgroundColor:'#aaf8', padding:'2rem'}}>
      <h2>Contact Us</h2>
 
      <form onSubmit={Hsub}>
