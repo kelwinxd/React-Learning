@@ -1,0 +1,57 @@
+.links {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+.links a {
+  text-decoration: none;
+  font-size: 2rem;
+  
+}
+
+.linkHome {
+  justify-content: flex-start;
+  gap: 2rem;
+  display: flex;
+}
+
+.linkHome a, .linkSingle a {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.linkSingle {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #000;
+}
+
+.activeSingle {
+  color: #f80404;
+}
+.no-active {
+  color: #000;
+}
+
+.active-link {
+  font-weight: bold;
+  color:brown;
+}
+
+.singles {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  width: 400px;
+}
+
+
+.home, .about {
+  max-width: 800px;
+  margin: 0 auto;
+}
