@@ -1,0 +1,22 @@
+.btn {
+    width: 8rem;
+    border: none;
+    padding: 0.6rem 0.5rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    transition: all .4s;
+    cursor: pointer;
+
+}
+
+.btn:hover, .btn:focus {
+    outline: none;
+    box-shadow: 0 0 2px 3px rgb(158, 148, 5);
+    filter: brightness(1.5);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
