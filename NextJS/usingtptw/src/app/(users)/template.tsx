@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import React, { ReactNode } from 'react'
+import React, { ReactNode, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import '../globals.css'
 
@@ -14,10 +14,12 @@ const navLinks = [
 ]
 
 const UsersLayout = ({children}:{children:ReactNode}) => {
+    const [value,setValue] = useState('')
 
     const pathname = usePathname()
   return (
     <div className="w-[700px] mx-auto flex justify-center flex-col items-center">
+        <div><input type="text" value={value} onChange={(e) => setValue(e.target.value)} /></div>
         <div className="flex gap-3">
 
        

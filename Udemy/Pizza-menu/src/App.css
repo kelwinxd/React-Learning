@@ -1,0 +1,53 @@
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.pizzas {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pizza {
+  width: 350px;
+  background-color: burlywood;
+  display: flex;
+
+  height: 200px;
+  align-items: center;
+padding: 10px;
+  border-radius: 10px;
+}
+
+.pizza-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  
+  width: 100px;
+}
+.ing {
+  width: 120px;
+  max-height: 100px;
+}
+
+
+.pizza img {
+width: 150px;
+
+}
+
+.container {
+width: 700px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}

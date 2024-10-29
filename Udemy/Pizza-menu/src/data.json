@@ -1,0 +1,38 @@
+
+
+
+[
+    {
+      "name": "Margherita",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Basil"],
+      "photo": "/assets/pizza-img.png"
+    
+    },
+    {
+      "name": "Pepperoni",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Pepperoni"],
+      "photo":  "/assets/pizza-img.png"
+    },
+    {
+      "name": "Vegetarian",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Bell Peppers", "Onions", "Olives"],
+      "photo":  "/assets/pizza-img.png"
+    },
+    {
+      "name": "BBQ Chicken",
+      "ingredients": ["BBQ Sauce", "Mozzarella Cheese", "Grilled Chicken", "Red Onions"],
+      "photo": "/assets/pizza-img.png"
+    },
+    {
+      "name": "Hawaiian",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Ham", "Pineapple"],
+      "photo": "/assets/pizza-img.png"
+    },
+    {
+      "name": "Meat Lovers",
+      "ingredients": ["Tomato Sauce", "Mozzarella Cheese", "Pepperoni", "Sausage", "Bacon"],
+      "photo":  "/assets/pizza-img.png"
+    }
+  ]
+  
+
