@@ -8,6 +8,7 @@ import User from './lessons/User'
 import Sells from './exercices/Sells/Sells'
 import RefLesson from './lessons/RefLesson/RefLesson'
 import VideoExe from './exercices/VideoHtml/VideoExe'
+import VideoH from './lessons/CustomHook/VideoH'
 
 const App = () => {
   const [total, setTotal] = React.useState(0)
@@ -53,9 +54,10 @@ const App = () => {
       <Sells />
 
        <RefLesson />
+         <VideoExe />
       */}
 
-      <VideoExe />
+       <VideoH />
 
      
    

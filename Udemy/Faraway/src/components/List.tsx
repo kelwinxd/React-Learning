@@ -2,7 +2,7 @@ import React from 'react'
 
 const List = ({children}:any) => {
   return (
-    <div>
+    <div className='list'>
        {children} 
     </div>
   )

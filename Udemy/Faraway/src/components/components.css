@@ -1,0 +1,55 @@
+.list {
+    margin-top: 2rem;
+    max-width: 800px;
+    margin-inline: auto;
+    flex-wrap: wrap;
+
+}
+
+.list ul {
+    max-width: 800px;
+    max-height: 400px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+}
+.check {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    background-color: #fff;
+    
+   
+  }
+
+.check:checked {
+    background-color: red;
+    color: #fff;
+}
+
+.check:checked::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 5px;
+    height: 10px;
+    border: solid white; /* Cor da "seta" */
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg); /* Inclina para parecer um "check" */
+  }
+
+.footer {
+    background-color: rgb(47, 47, 175);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: #fff;
+}
