@@ -66,12 +66,15 @@ const App = () => {
         </ul>
       </List>
 
+     
+
       <div className='sort'>
         <select value={sort} className='selectsort' onChange={e=> setSort(e.target.value)}>
           <option value="input">Sort by input</option>
           <option value="description">Sort by description</option>
           <option value="packed">Sort by Packed</option>
         </select>
+        <button onClick={() => {setList([])}}>Clear List</button>
       </div>
       <Footer items={list}/>
     </div>
